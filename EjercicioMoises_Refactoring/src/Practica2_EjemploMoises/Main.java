@@ -9,8 +9,6 @@ import java.util.Date;
 public class Main {
         public static void main(String[] args) throws ParseException {
     
-            //En el main es donde suelen ir los staticos
-    
             SimpleDateFormat dateFormat = new SimpleDateFormat("d/M/yyyy");
     
             Vehicle vehicle1 = new Vehicle ("Tata", "Vista", Vehicle.BASIC);
